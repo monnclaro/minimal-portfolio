@@ -2,17 +2,14 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-import { ThemeSwitcher } from "./components/ThemeSwitcher";
 import { Header } from "./components/Header";
+import { SmallProjects } from "./components/SmallProjects";
+import { ThemeSwitcher } from "./components/ThemeSwitcher";
 
 import Volkswagen from "../public/volkswagen.png";
 import OBoticario from "../public/OBoticario.png";
 
-import {
-  ArrowTopRightOnSquareIcon,
-  FolderIcon,
-} from "@heroicons/react/24/solid";
-import { SmallProjects } from "./components/SmallProjects";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
@@ -67,12 +64,12 @@ export default function Home() {
                   <div className="mt-8 flex items-center gap-3">
                     <Link
                       href="/projects/vw100"
-                      className="cursor-pointer font-semibold text-[#0076FF] hover:text-[#0077ffa9]"
+                      className="cursor-pointer font-semibold text-[#0076FF] hover:text-[#0077ffd0] dark:text-[#90b3f4] dark:hover:text-[#90b3f4e0]"
                     >
                       Read more
                     </Link>
                     <a href="https://www.faculdadesdaindustria.org.br/parceria-com-a-volkswagen-possibilita-imersao-academica-na-industria--1-35816-460283.shtml">
-                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer text-[#0076FF] transition-all duration-75 ease-in hover:text-[#0077ffa9]" />
+                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer text-[#0076FF] transition-all duration-75 ease-in hover:text-[#0077ffd0] dark:text-[#90b3f4] dark:hover:text-[#90b3f4e0]" />
                     </a>
                   </div>
                 </div>
@@ -103,12 +100,12 @@ export default function Home() {
                   <div className="mt-8 flex items-center gap-3">
                     <Link
                       href="/projects/boti100"
-                      className="cursor-pointer font-semibold text-[#0076FF] hover:text-[#0077ffa9]"
+                      className="cursor-pointer font-semibold text-[#0076FF] hover:text-[#0077ffd0] dark:text-[#90b3f4] dark:hover:text-[#90b3f4e0]"
                     >
                       Read more
                     </Link>
                     <a href="https://www.faculdadesdaindustria.org.br/jornada-boti100-apresenta-solucoes-para-a-industria-1-35816-456812.shtml">
-                      <ArrowTopRightOnSquareIcon className="cursor-pointeR h-6 w-6 text-[#0076FF] transition-all duration-75 ease-in hover:text-[#0077ffa9]" />
+                      <ArrowTopRightOnSquareIcon className="cursor-pointeR h-6 w-6 text-[#0076FF] transition-all duration-75 ease-in hover:text-[#0077ffd0] dark:text-[#90b3f4] dark:hover:text-[#90b3f4e0]" />
                     </a>
                   </div>
                 </div>

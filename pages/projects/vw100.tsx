@@ -18,8 +18,8 @@ export default function VW100() {
       <Header />
       <ThemeSwitcher />
 
-      <main className="mx-[50px] mt-[70px] lg:mx-[450px]">
-        <div className="mt-28 mb-10 flex flex-col gap-2 text-xl text-black dark:text-slate-300 lg:text-2xl">
+      <main className="mt-[70px]">
+        <div className="mx-[50px] mt-28 mb-10 flex flex-col gap-2 text-xl text-black dark:text-gray-300 lg:mx-[450px] lg:text-2xl">
           <Link href="/">
             <ArrowLongLeftIcon className="h-10 w-10 cursor-pointer text-black hover:text-[#0076FF] dark:text-white dark:hover:text-[#0076FF]" />
           </Link>
@@ -35,13 +35,19 @@ export default function VW100() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 text-justify text-lg font-medium dark:text-slate-100 lg:text-2xl">
+        <div className="mx-[50px] flex flex-col gap-4 text-justify text-lg font-normal dark:text-slate-100 lg:mx-[380px] lg:text-xl">
           <p>
-            Projeto desenvolvido na unidade industrial da Volkswagen de São José
-            dos Pinhais, localizada na região metropolitana de Curitiba, Paraná.
+            Projeto desenvolvido na unidade industrial da{" "}
+            <a
+              href="https://www.vw.com.br/pt/volkswagen/volkswagen-do-brasil.html"
+              className="text-[#0076FF] dark:text-[#90b3f4]"
+            >
+              Volkswagen
+            </a>{" "}
+            de São José dos Pinhais, localizada na região metropolitana de
+            Curitiba, Paraná.
           </p>
           <p>
-            {" "}
             O objetivo geral deste projeto é otimizar o gerenciamento,
             rastreabilidade e controle de embalagens internas (racks metálicos)
             destinadas ao processo MAKE (Estamparia e Armação), para tal
