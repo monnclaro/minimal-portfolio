@@ -1,7 +1,7 @@
 export function Header() {
   return (
-    <header className="fixed top-0 w-screen border-b-[1px] bg-[#EAEDF0CC] px-[450px] py-[16px] font-semibold text-black shadow-sm dark:border-zinc-800  dark:bg-[#121212cc] dark:text-white">
-      <div className="text-md flex justify-center gap-5">
+    <header className="static top-0 w-screen border-b-[1px] bg-[#EAEDF0CC] py-[16px] font-semibold text-black shadow-sm dark:border-zinc-800 dark:bg-[#121212cc] dark:text-white lg:fixed lg:px-[450px]">
+      <div className="flex justify-center gap-5 text-sm lg:text-base">
         <a
           href="https://linkedin.com/in/augustomonclaro"
           className="hover:text-[#0076FF] dark:hover:text-slate-300"

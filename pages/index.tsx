@@ -28,38 +28,38 @@ export default function Home() {
       <ThemeSwitcher />
 
       <main>
-        <div className="mx-[450px] flex flex-col pt-64 sm:text-sm">
-          <h1 className="pb-9 text-center text-8xl font-semibold tracking-normal dark:text-white">
+        <div className="mx-[50px] flex flex-col pt-48 lg:mx-[450px] lg:pt-64 ">
+          <h1 className="pb-9 text-center text-6xl font-semibold tracking-normal dark:text-white lg:text-8xl">
             hi, i'm <br />
             august ❦
           </h1>
-          <p className="pb-9 text-center text-2xl tracking-normal dark:text-slate-200">
+          <p className="text-md pb-9 text-center tracking-normal dark:text-slate-200 lg:text-2xl">
             My interests are very broad but they all <br />
             diverge to understanding and solving human problems.
           </p>
           <div className="flex justify-center gap-12">
-            <button className="text-md rounded-md bg-[#0070f3] py-1 px-[65px] text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2]">
+            <button className="rounded-md bg-[#0070f3] py-1 px-4 text-sm font-semibold text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base">
               About me
             </button>
             <button
               onClick={() => window.scrollTo(0, 815)}
-              className="text-md rounded-md bg-[#0070f3] py-2 px-[65px] text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2]"
+              className="rounded-md bg-[#0070f3] py-2 px-4 text-sm font-semibold text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base"
             >
               Projects
             </button>
           </div>
         </div>
 
-        <div className="mx-[450px] mt-[298px] flex flex-col pb-28">
+        <div className="mt-[298px] flex flex-col pb-28 lg:mx-[450px]">
           <div className="flex flex-col items-center gap-8">
-            <div className="max-h-[370px] w-[1200px] rounded-md bg-white shadow-lg dark:bg-[#1d1f20]  dark:shadow-xl">
-              <div className="flex flex-row items-center justify-between px-16 py-12">
-                <div className="text-xl text-black dark:text-slate-200">
+            <div className="w-[350px] rounded-md border border-slate-200 bg-white shadow-lg dark:border-none  dark:bg-[#1d1f20] dark:shadow-xl lg:max-h-[370px] lg:w-[1200px]">
+              <div className="flex flex-col items-center justify-between px-6 py-12 text-start lg:flex-row lg:px-16">
+                <div className="text-md text-black dark:text-slate-200 lg:text-xl">
                   <p>VW100</p>
                   <h1 className="py-4 text-3xl font-bold dark:text-white">
                     Volkswagen
                   </h1>
-                  <p className="w-[450px]">
+                  <p className="lg:w-[450px]">
                     Project developed at the Volkswagen industrial unit in São
                     José dos Pinhais, located in the metropolitan region of
                     Curitiba, Paraná.
@@ -77,25 +77,25 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="pr-14">
+                <div className=" lg:pr-14">
                   <Image
                     src={Volkswagen}
                     alt="Volkswagen logo"
                     width={250}
                     height={250}
-                    className="drop-shadow-lg dark:brightness-200 dark:contrast-200 dark:grayscale dark:invert"
+                    className="pt-10 drop-shadow-lg dark:brightness-200 dark:contrast-200 dark:grayscale dark:invert lg:pt-0"
                   />
                 </div>
               </div>
             </div>
-            <div className="max-h-[370px] w-[1200px] rounded-md bg-white shadow-lg dark:bg-[#1d1f20] dark:shadow-xl">
-              <div className="flex flex-row items-center justify-between px-16 py-12">
-                <div className="text-xl text-black dark:text-slate-200">
+            <div className="w-[350px] rounded-md border border-slate-200 bg-white shadow-lg dark:border-none  dark:bg-[#1d1f20] dark:shadow-xl lg:max-h-[370px] lg:w-[1200px]">
+              <div className="flex flex-col items-center justify-between px-6 py-12 text-start lg:flex-row lg:px-16">
+                <div className="text-md text-black dark:text-slate-200 lg:text-xl">
                   <p>Boti100</p>
                   <h1 className="py-4 text-3xl font-bold dark:text-white">
                     O Boticário
                   </h1>
-                  <p className="w-[450px]">
+                  <p className="lg:w-[450px]">
                     Project developed at the care factory of the O Boticário
                     unit in São José dos Pinhais, responsible for the production
                     of lotions and perfumes.
@@ -119,7 +119,7 @@ export default function Home() {
                     alt="O BOticário logo"
                     width={400}
                     height={400}
-                    className="drop-shadow-lg dark:invert"
+                    className="pt-10 drop-shadow-lg dark:invert lg:pt-0"
                   />
                 </div>
               </div>

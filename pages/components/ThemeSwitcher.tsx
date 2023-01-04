@@ -25,7 +25,7 @@ export function ThemeSwitcher() {
   };
 
   return (
-    <div className="fixed bottom-[1.5rem] left-[89vw] ">
+    <div className="fixed left-[80vw] bottom-[1.5rem] lg:left-[89vw]">
       <button
         onClick={handleThemeSwitch}
         className="rounded-full p-1 dark:border-zinc-800 dark:bg-[#121212cc]"

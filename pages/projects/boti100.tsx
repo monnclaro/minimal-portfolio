@@ -17,25 +17,25 @@ export default function Boti100() {
 
       <Header />
       <ThemeSwitcher />
-      <main className="mx-[450px] mt-[70px]">
-        <div className="mt-28 mb-10 flex flex-col gap-2 text-2xl text-black dark:text-slate-300">
+      <main className="mx-[50px] mt-[70px] mb-12 lg:mx-[450px]">
+        <div className="mt-28 mb-10 flex flex-col gap-2 text-xl text-black dark:text-slate-300 lg:text-2xl">
           <Link href="/">
             <ArrowLongLeftIcon className="h-10 w-10 cursor-pointer text-black hover:text-[#0076FF] dark:text-white dark:hover:text-[#0076FF]" />
           </Link>
 
           <p>Boti100</p>
           <h1 className="text-5xl font-bold dark:text-white">O Boticário</h1>
-          <div className="flex justify-between">
+          <div className="flex flex-col justify-between lg:flex-row">
             <div>
               <p>Higienização e Abastecimento (Linha de Cuidados)</p>
             </div>
-            <div className="text-xl">
+            <div className="pt-4 text-xl lg:pt-0">
               <p>jan. 2021 - jun. 2021</p>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 text-justify text-2xl dark:text-white">
+        <div className="flex flex-col gap-4 text-justify text-lg font-medium dark:text-slate-100 lg:text-2xl">
           <p>
             Projeto desenvolvido na fábrica de cuidados da unidade do O
             Boticário de São José dos Pinhais, responsável pela produção de

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F3F5F7] transition duration-500 dark:bg-[#121212];
+    @apply overflow-x-hidden bg-[#F3F5F7] transition duration-500 dark:bg-[#121212];
   }
 }
 

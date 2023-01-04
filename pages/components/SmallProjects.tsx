@@ -37,13 +37,13 @@ export function SmallProjects() {
   return (
     <div className="items-center pt-20 text-zinc-700 dark:text-slate-200">
       <h1 className="text-md text-center">Other small noteworthy projects ↓</h1>
-      <div className="mt-6 flex gap-4">
+      <div className="mt-6 flex flex-col gap-4 lg:flex-row">
         {Object.keys(Projects).map((key) => {
           const project = Projects[key as keyof typeof Projects];
           return (
             <div
               key={project.title}
-              className="flex max-h-[400px] w-[390px] flex-col gap-4 rounded-md bg-white px-8 py-10 shadow-lg dark:bg-[#1d1f20] dark:shadow-xl"
+              className="flex max-h-[400px] w-[350px] flex-col gap-4 rounded-md border-slate-200 bg-white px-8 py-10 shadow-lg dark:border-none dark:bg-[#1d1f20] dark:shadow-xl lg:w-[390px]"
             >
               <div className="flex justify-between">
                 <FolderIcon className="h-5 w-5 text-slate-400" />
@@ -54,7 +54,7 @@ export function SmallProjects() {
               <h1 className="text-2xl font-semibold text-black dark:text-white">
                 {project.title}
               </h1>
-              <p className="text-lg">{project.description}</p>
+              <p className="text-md font-normal">{project.description}</p>
             </div>
           );
         })}
