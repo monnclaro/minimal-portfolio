@@ -48,7 +48,7 @@ export function SmallProjects() {
               <div className="flex justify-between">
                 <FolderIcon className="h-5 w-5 text-slate-400" />
                 <a href={project.link}>
-                  <ArrowTopRightOnSquareIcon className="h-5 w-5 cursor-pointer text-[#0076FF] hover:text-[#0077ffa9]" />
+                  <ArrowTopRightOnSquareIcon className="h-5 w-5 cursor-pointer text-[#0076FF] hover:text-[#0077ffa9] dark:text-[#90b3f4] dark:hover:text-[#90b3f4e0]" />
                 </a>
               </div>
               <h1 className="text-2xl font-semibold text-black dark:text-white">

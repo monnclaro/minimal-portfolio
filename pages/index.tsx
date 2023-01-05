@@ -25,29 +25,29 @@ export default function Home() {
       <ThemeSwitcher />
 
       <main>
-        <div className="mx-[50px] flex flex-col pt-48 lg:mx-[450px] lg:pt-64 ">
-          <h1 className="pb-9 text-center text-6xl font-semibold tracking-normal dark:text-white lg:text-8xl">
+        <div className="mx-[50px] flex flex-col pb-72 pt-48 lg:mx-[450px] lg:pt-64 lg:pb-80">
+          <h1 className="pb-9 text-center text-6xl font-semibold tracking-normal drop-shadow-md dark:text-white lg:text-8xl">
             hi, i'm <br />
             august ❦
           </h1>
-          <p className="text-md pb-9 text-center tracking-normal dark:text-slate-200 lg:text-2xl">
+          <p className="text-md pb-9 text-center tracking-normal drop-shadow-xl dark:text-slate-200 lg:text-2xl">
             My interests are very broad but they all <br />
             diverge to understanding and solving human problems.
           </p>
           <div className="flex justify-center gap-12">
-            <button className="rounded-md bg-[#0070f3] py-1 px-4 text-sm font-semibold text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base">
+            <button className="rounded-md bg-[#0070f3] py-1 px-4 text-sm font-semibold text-white shadow-md  drop-shadow-xl transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base">
               About me
             </button>
             <button
-              onClick={() => window.scrollTo(0, 815)}
-              className="rounded-md bg-[#0070f3] py-2 px-4 text-sm font-semibold text-white shadow-md shadow-[#0077ffbd] transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base"
+              onClick={() => window.scrollTo(0, 820)}
+              className="rounded-md bg-[#0070f3] py-2 px-4 text-sm font-semibold text-white shadow-md drop-shadow-xl  transition duration-300 hover:scale-95 dark:shadow-lg dark:shadow-[#0077ffa2] lg:px-[65px] lg:text-base"
             >
               Projects
             </button>
           </div>
         </div>
 
-        <div className="mt-[298px] flex flex-col pb-28 lg:mx-[450px]">
+        <div className="flex flex-col pb-28 lg:mx-[450px]">
           <div className="flex flex-col items-center gap-8">
             <div className="w-[350px] rounded-md border border-slate-200 bg-white shadow-lg dark:border-none  dark:bg-[#1d1f20] dark:shadow-xl lg:max-h-[370px] lg:w-[1200px]">
               <div className="flex flex-col items-center justify-between px-6 py-12 text-start lg:flex-row lg:px-16">

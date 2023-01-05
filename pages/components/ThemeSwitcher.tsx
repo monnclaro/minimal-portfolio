@@ -30,7 +30,7 @@ export function ThemeSwitcher() {
         onClick={handleThemeSwitch}
         className="rounded-full p-1 dark:border-zinc-800 dark:bg-[#121212cc]"
       >
-        <SunIcon className="h-9 w-9 text-black dark:text-slate-300 " />
+        <SunIcon className="h-9 w-9 text-black dark:text-slate-200 " />
       </button>
     </div>
   );

@@ -21,7 +21,7 @@ export default function VW100() {
       <main className="mt-[70px]">
         <div className="mx-[50px] mt-28 mb-10 flex flex-col gap-2 text-xl text-black dark:text-gray-300 lg:mx-[450px] lg:text-2xl">
           <Link href="/">
-            <ArrowLongLeftIcon className="h-10 w-10 cursor-pointer text-black hover:text-[#0076FF] dark:text-white dark:hover:text-[#0076FF]" />
+            <ArrowLongLeftIcon className="h-10 w-10 cursor-pointer text-black hover:text-[#0076FF] dark:text-white dark:hover:text-[#90b3f4]" />
           </Link>
           <p>VW100</p>
           <h1 className="text-5xl font-bold dark:text-white">Volkswagen</h1>
